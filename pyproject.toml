@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "iris-forecasting"
+version = "0.1.0"
+description = "A forecasting model using the Iris dataset with artificial intelligence."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+numpy = "^1.21.0"
+scikit-learn = "^0.24.0"
+matplotlib = "^3.4.0"
+seaborn = "^0.11.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
